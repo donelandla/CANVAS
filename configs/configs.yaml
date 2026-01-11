@@ -1,0 +1,16 @@
+train_root: '/data/lirunjie/code/data1/train/'
+val_root: '/data/lirunjie/code/data1/val/'                
+test_root: '/data/lirunjie/code/test/'
+
+total_epochs: 27
+warmup_epochs: 9
+min_lr: 1e-6
+
+image_res: 224
+batch_size_train: 128
+batch_size_test: 128
+
+jpeg_quality: null
+gaussian_sigma: null
+
+optimizer: {opt: adamW, lr: 1e-4, weight_decay: 0.05}
